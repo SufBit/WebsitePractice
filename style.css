@@ -66,6 +66,7 @@ nav ul li a{
     cursor: pointer;
     font-size: 1em;
     margin-top: 20px;
+    border-radius: 5px; 
 }
 
 .Main-Content .Main-Image{
@@ -139,6 +140,58 @@ nav ul li a{
     font-style: normal;
     font-weight: bold;
 }
+
+
+.cta-section{
+    background-color: white;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.cta-content{
+    display: flex;
+    background-color: #3882f6;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.content-text p{
+    margin: 0;
+    padding: 5px 0;
+    color: white;
+}
+
+.content-text h3{
+    margin: 0;
+    color: white;
+}
+
+.cta-content button{
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 20px; 
+    border-radius: 5px; 
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
 
 
 
